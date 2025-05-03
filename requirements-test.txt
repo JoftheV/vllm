@@ -14,7 +14,6 @@ aiohappyeyeballs==2.4.3
     # via aiohttp
 aiohttp==3.10.10
     # via
-    #   -r requirements-test.in
     #   datasets
     #   fsspec
     #   lm-eval
@@ -174,7 +173,7 @@ iniconfig==2.0.0
     # via pytest
 isort==5.13.2
     # via datamodel-code-generator
-jinja2==3.1.4
+jinja2==3.1.6
     # via
     #   datamodel-code-generator
     #   torch
@@ -263,7 +262,6 @@ numpy==1.26.4
     #   mistral-common
     #   numba
     #   numexpr
-    #   opencv-python
     #   opencv-python-headless
     #   pandas
     #   peft
@@ -307,8 +305,6 @@ nvidia-nvjitlink-cu12==12.4.127
     #   torch
 nvidia-nvtx-cu12==12.4.127
     # via torch
-opencv-python==4.10.0.84
-    # via -r requirements-test.in
 opencv-python-headless==4.10.0.84
     # via mistral-common
 packaging==24.1
@@ -440,7 +436,6 @@ regex==2024.9.11
     #   transformers
 requests==2.32.3
     # via
-    #   -r requirements-test.in
     #   buildkite-test-collector
     #   datasets
     #   evaluate
